@@ -1,0 +1,29 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Rectangle;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner scanner = new Scanner(System.in);
+		
+		Rectangle rectangle = new Rectangle();
+		
+		System.out.println("Enter rectangle widht and height:");
+		rectangle.widht = scanner.nextDouble();
+		rectangle.height= scanner.nextDouble();
+		
+		System.out.printf("Area: %.2fn" + rectangle.area());
+		System.out.printf("Perimeter: %.2fn" + rectangle.perimeter());
+		System.out.printf("Diagonal: %.2fn" + rectangle.diagonal());
+		
+		scanner.close();
+
+	}
+
+}
