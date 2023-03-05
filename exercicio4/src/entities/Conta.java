@@ -9,10 +9,10 @@ public class Conta {
 	public Conta(){
 	}
 	
-	public Conta(int numeroConta, String nomeTitular, double saldo) {
+	public Conta(int numeroConta, String nomeTitular, double depositoInicial) {
 		this.numeroConta = numeroConta;
 		this.nomeTitular = nomeTitular;
-		this.saldo = saldo;
+		addDeposito(depositoInicial);
 	}
 	
 	public Conta(int numeroConta, String nomeTitular) {
@@ -41,7 +41,16 @@ public class Conta {
 	}
 	
 	public void addSaque(double valor) {
-		saldo = saldo - valor - 5.00;
+		saldo -= valor + 5.00;
 	}
-
+	
+	public String toString() {
+		return "Conta "
+				+ numeroConta
+				+ ", Holder: "
+				+ nomeTitular
+				+ ", Balance: $ "
+				+ String.format("%.2f", saldo);
+				
+	}
 }
