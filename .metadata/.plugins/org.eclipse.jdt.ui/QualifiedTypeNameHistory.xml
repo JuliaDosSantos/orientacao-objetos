@@ -7,9 +7,9 @@
     <fullyQualifiedTypeName name="entities.Student"/>
     <fullyQualifiedTypeName name="util.Calculator"/>
     <fullyQualifiedTypeName name="util.CurrencyConverter"/>
-    <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="entities.Conta"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="entities.Conta"/>
+    <fullyQualifiedTypeName name="entities.Product"/>
 </qualifiedTypeNameHistroy>
