@@ -4,6 +4,7 @@ INDEX VERSION 1.131+C:\Repositório\Orientação objeto\.metadata\.plugins\org.ecli
 2267112115.index
 3478700786.index
 3624917321.index
+2300541988.index
 1506730008.index
 1465606956.index
 829193340.index
@@ -11,6 +12,6 @@ INDEX VERSION 1.131+C:\Repositório\Orientação objeto\.metadata\.plugins\org.ecli
 4263005362.index
 1865797976.index
 165734587.index
-1090947315.index
 2936596959.index
+1090947315.index
 235043725.index
